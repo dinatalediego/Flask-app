@@ -70,5 +70,5 @@ def generar_respuesta():
     
     return jsonify({'respuesta': respuesta, 'pregunta': pregunta})
 
-if __name__ == "__main__":
-    app.run(debug=False)
+if __name__ != "__main__":
+    app = app
